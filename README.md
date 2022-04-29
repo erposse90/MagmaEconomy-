@@ -1,0 +1,2 @@
+# MagmaEconomy-
+As I promised, here is the first (and only?) Plugin for spigot / magma that replicates the famous plugin for sponge (EconomyBridge).   Finally from today the pixelmon economy will communicate with any with this vault-compatible economy and consequently with every vault-compatible plugin! Obviously the plugin is vault and pixelmon dependent. Permissions and guidance on the use of commands are available directly in the plugin config file, after installation! for more info do not hesitate to contact me on my discord group:  https://discord.gg/K4pzvEhncw
