@@ -1,0 +1,48 @@
+startBalance: 500.0  #//put here the initial balance of the players
+
+
+#//List of items that can be converted into money,you can lengthen it as much as you want//#
+convert:  
+ STONE: 1.0  #//the price of items for money is in double,with a dot 
+ EMERALD: 5.5
+ REDSTONE: 3.2
+ PIXELMON_POKE_BALL: 4.0 #//this is the correct syntax for converting money in mod objects   modname_object_name
+
+
+#//List of items that can be converted into money,last one!//#
+#//ATTENTION!Use an object from stack 64!//#
+reconvert: 
+ obj: "pixelmon:poke_ball" #//this is the correct syntax for converting mod objects in money    modname:object_name or modname_object_name
+ coin: 20 #//the price of money for items is in integer,without a dot
+ 
+#/Permission List:#/
+  #/for players#/
+   #/balance:Perms:magmaeconomy.balance#/
+   #/convert:magmaeconomy.convert#/
+   #/pay:magmaeconomy.pay#/
+  #/for admin#/
+   #/adminpay:magmaeconomy.adminpay#/
+   #/admintake:magmaeconomy.admintake#/
+   #/balance:magmaeconomy.balance.others to see others balance#/
+   #/setbalance:magmaeconomy.setbalance#/
+   #/deposit:magmaeconomy.deposit#/
+   #/withdraw:magmaeconomy.withdraw#/
+#/Commands Sintax#/
+  #/balance:/balance <player> #/
+            #/to see your/others balance#/
+  #/convert:/convert <money>#/
+            #/to convert the object into hand/to convert money in object#/
+  #/pay:/pay <money> <player>#/
+        #/to pay other player#/
+  #/deposit:/deposit <money>#/
+        #/to convert PokeCoin in VaultMoney#/
+  #/withdraw:/withdraw <money>#/
+        #/to convert VaultMoney in PokeCoin#/      
+  #/adminpay:/adminpay <money> <player>#/
+            #/to admin-pay yourself/other player#/
+  #/admintake:/admintake <money> <player>#/
+            #/to take money yourself/other player#/
+  #/setbalance:/setbalance <money> <player>#/
+            #/to set your/others balance#/
+           
+ 

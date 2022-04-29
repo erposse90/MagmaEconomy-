@@ -1,0 +1,33 @@
+name: MagmaEconomy
+author: Erposse90
+version: 1.3.5.pxlmn8.x
+description: Economy plugin And Bridge Pixelmon-Vault
+main: Economy.Main
+softdepend: [Vault]
+softdepend: [Pixelmon]
+commands:
+ balance:
+    description: To see your/others balance
+    aliases: [bal]
+ convert:
+    description: To convert the object into hand to money/to convert money in object
+    aliases: [change]
+ pay:
+    description: To pay other player
+ setbalance:
+    description: To set your/others balance
+    aliases: [setbal]
+ adminpay:
+    description: To admin-pay yourself/other player
+    aliases: [apay]
+ admintake:
+    description: To take money yourself/other player
+    aliases: [atake]
+ withdraw:
+    description: to convert VaultMoney in PokeCoin
+    aliases: [wit]
+ deposit:
+    description: to convert PokeCoin in VaultMoney
+    aliases: [dep]
+ 
+
